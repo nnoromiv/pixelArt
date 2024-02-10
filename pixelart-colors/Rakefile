@@ -1,0 +1,28 @@
+require 'hoe'
+require './lib/pixelart/colors/version.rb'
+
+Hoe.spec 'pixelart-colors' do
+
+  self.version = Pixelart::Module::Colors::VERSION
+
+
+  self.summary = "pixelart-colors - helpers to work with true colors as integers; 256 shades for r/g/b (red, green and blue) totaling 16 million colors; incl. hsl, hsv color space converters and more"
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/pixelartexchange/pixelart' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = []
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+end

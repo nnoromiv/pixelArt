@@ -1,0 +1,8 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+config/spritesheet.csv
+config/spritesheet.png
+lib/moonbirds.rb
+lib/moonbirds/version.rb
